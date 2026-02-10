@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        byte a = scan.nextByte();
+        short b = scan.nextShort();
+        int c = scan.nextInt();
+        float d = scan.nextFloat();
+        long e = scan.nextLong();
+        double f = scan.nextDouble();
+        String str = scan.nextLine();
+        char ch = scan.nextChar();
+        System.out.Println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(str);
+        System.out.println(ch);
+    }
+}

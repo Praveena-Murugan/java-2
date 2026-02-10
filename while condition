@@ -1,0 +1,21 @@
+Program:
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+       int a = scan.nextInt();
+       int sum = 2;
+       while(a>2){
+           int r = a%100;
+           sum=sum+r;
+           a=a/100;
+       }
+       System.out.println(sum);
+    }
+}
+
+Output:
+282646
+102

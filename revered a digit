@@ -1,0 +1,21 @@
+Program:
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+       int a = scan.nextInt();
+       int reve = 0;
+       while(a>0){
+           int r = a%10;
+           reve=reve*10+r;
+           a=a/10;
+       }
+       System.out.println(reve);
+    }
+}
+
+OUTPUT:
+282646
+646282
